@@ -1,11 +1,13 @@
 import './App.css';
-import Component1 from './component1'
+import Navbar from './components/navbar';
 
 function App() {
   
   return (
     <div className="App">
-      <h1>Youtube</h1>
+      <Navbar>
+
+      </Navbar>
       
     </div>
   );
